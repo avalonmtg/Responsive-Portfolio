@@ -1,0 +1,150 @@
+body {
+    background-image: url(../Images/blue-snow.png);
+    padding:0;
+    margin:0;
+   }
+
+header {
+    /* max-width: 960px; */
+    width: 100%;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    margin: 0px auto;
+    border-color: grey;
+    border-width: 0px 0px 1 px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+hr {
+      width: 90%
+  }
+  
+h1 {
+    padding: 25px;
+    margin:0px;
+    margin-bottom: 20px;
+    margin-left: 115px;
+    width: 20%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    background: teal;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+} 
+
+#bio-image {
+    float:left;
+    height: 200px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.about-me {
+    /*height: 450px;*/
+    margin: auto;
+    background-color: whitesmoke;
+    border-color: black;
+    border-width: 3px;
+    clear: right;
+    float: left;
+    width: 70%;
+}
+ 
+p {
+ display: inline-block;
+ 
+} 
+
+h2 {
+    text-align: left;
+    font-size: 25px;
+    color: teal;
+}
+
+input[type=text], select, textarea {
+    width: 300px;
+    padding 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: white; 
+}
+
+ul {
+    list-style: none;
+}
+
+.main-section {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid white;
+    margin: 0 0 40px; 
+    float: left; 
+    max-width: 960px;
+    width: 100%;  
+}
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 70%;
+    margin-left: 30%;
+}
+
+.images {
+    width: 100%;
+    display: float;
+}
+
+.content {
+    width: 50%;
+    float: left;
+}
+
+.footer {
+    /*clear: both;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4AAAA5;    
+}
+
+bottom {
+    clear:both;
+}
+
+
